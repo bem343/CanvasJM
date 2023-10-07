@@ -1,7 +1,16 @@
-body {
+* {
     padding: 0px;
     margin: 0px;
+}
+
+body {
+    font-family: "Times New Roman", serif;
     background-color: #6e6b75;
+}
+
+p {
+    color: white;
+    font-size: 32px;
 }
 
 #game {
@@ -14,10 +23,13 @@ body {
 
 #divPc {
     z-index: 0;
-    padding: 0px;
-    margin: 0px;
     width: 100%;
     position: absolute;
     left: 0px;
     top: 0px;
+}
+
+#divMsg {
+    margin: 80px auto;
+    margin-left: 830px;
 }
