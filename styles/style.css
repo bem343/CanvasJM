@@ -1,0 +1,23 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #6e6b75;
+}
+
+#game {
+    z-index: 1;
+    position: absolute;
+    left: 223px;
+    top: 122px;
+    width: 465px;
+}
+
+#divPc {
+    z-index: 0;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
